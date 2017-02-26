@@ -55,7 +55,7 @@ Stack<T>::Stack(Stack<T>&& data) {
 		m_size = std::move(data.m_size);
 		m_capacity = std::move(data.m_capacity);
 		m_data = data.m_data;
-		data.m_data = 0;
+		data.m_data = nullptr;
 }
 
 template <typename T>
