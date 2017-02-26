@@ -50,12 +50,12 @@ Stack<T>::Stack(const int *  data, int size) {
 		m_capacity = 2*m_size;
 }	
 
-//doesn't work now
 template <typename T>
 Stack<T>::Stack(Stack<T>&& data) {
 		m_size = std::move(data.m_size);
-		m_data = std::move(data.m_data);
-		m_capacity = 2*m_size;
+		m_capacity = std::move(data.m_capacity);
+		m_data = data.m_data;
+		data.m_data = 0;
 }
 
 template <typename T>
@@ -108,6 +108,11 @@ template <typename T>
 T Stack<T>::pop() {
 		assert(m_size > 0);
 		return m_data[m_size--];
+}
+
+template <typename T>
+T Stack<T>::top() {
+		return m_data[m_size-1];
 }
 
 template <typename T>
