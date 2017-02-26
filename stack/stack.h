@@ -64,8 +64,8 @@ Stack<T>::Stack(const Stack<T>& data){
 		m_size = data.m_size;
         for (int i = 0; i < data.m_size; i++) {
                 m_data[i] = data.m_data[i];
-		}
-		m_capacity = data.m_capacity;
+	}
+	m_capacity = data.m_capacity;
 }
 
 template <typename T>
@@ -75,8 +75,8 @@ Stack<T>& Stack<T>::operator=(const Stack<T>& data) {
 			m_size = data.m_size;
 			m_data = new int[m_size];
 			for (int i = 0; i < data.m_size; i++) {
-                 m_data[i] = data.m_data[i]; 
-	        }
+                 		m_data[i] = data.m_data[i]; 
+	        	}
 			m_capacity = data.m_capacity;
 		}
 		return *this;
@@ -125,7 +125,7 @@ void Stack<T>::push(T item) {
 				delete[] m_data;
 				m_data = new int[2*m_capacity];
 				for (int i = 0;i < m_size; i++)
-             		m_data[i] = newm_data[i];
+             				m_data[i] = newm_data[i];
 				delete[] newm_data;
 				
 		}
