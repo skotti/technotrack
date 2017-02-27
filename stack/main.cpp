@@ -23,9 +23,18 @@ int test2() {
 		return st2.getSize();
 }
 
+int test3() {
+		Stack<int> st(10);
+		for (int i = 0; i < 100; i++)
+				st.push(1);
+		return (st.getSize() == 100) && st.ok();
+}
+
 int main() {
         assert(test1() == 5);
 		cout<<"Test1 passed"<<endl;
 		assert(test2() == 5);
 		cout<<"Test2 passed"<<endl;
+		assert(test3());
+		cout<<"Test3 passed"<<endl;
 }

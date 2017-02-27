@@ -24,6 +24,7 @@ public:
 		const T* const getData();
 		void dump();
 		Stack<T>& operator=(const Stack& other);
+		bool ok();
 		~Stack();
 };
 
@@ -51,9 +52,9 @@ Stack<T>::Stack(const int *  data, int size) {
 }	
 
 template <typename T>
-Stack<T>::Stack(Stack<T>&& data) {
-		m_size = std::move(data.m_size);
-		m_capacity = std::move(data.m_capacity);
+Stack<T>::Stack(Stack<T>&& data):
+m_size(std::move(data.m_size)), 
+m_capacity(std::move(data.m_capacity)) {
 		m_data = data.m_data;
 		data.m_data = nullptr;
 }
@@ -64,8 +65,8 @@ Stack<T>::Stack(const Stack<T>& data){
 		m_size = data.m_size;
         for (int i = 0; i < data.m_size; i++) {
                 m_data[i] = data.m_data[i];
-	}
-	m_capacity = data.m_capacity;
+		}
+		m_capacity = data.m_capacity;
 }
 
 template <typename T>
@@ -136,4 +137,9 @@ template <typename T>
 Stack<T>::~Stack() {
 		delete[] m_data;
 		m_data = NULL;
+}
+
+template <typename T>
+bool Stack<T>::ok() {
+		return (m_size > 0) && (m_capacity > 0) && (m_data != NULL);
 }
