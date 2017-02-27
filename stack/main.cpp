@@ -37,4 +37,7 @@ int main() {
 		cout<<"Test2 passed"<<endl;
 		assert(test3());
 		cout<<"Test3 passed"<<endl;
+
+		Stack<int> st = {1,2,3,4,5};
+		st.dump();
 }

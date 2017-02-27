@@ -1,6 +1,8 @@
 #include <iostream>
 #include <stdlib.h>
 #include "assert.h"
+#include <initializer_list>
+
 using namespace std;
 
 template <typename T>
@@ -14,6 +16,7 @@ public:
 		Stack(int size);
 		Stack(const Stack<T>& data);
 		Stack(Stack<T>&& data);
+		Stack(initializer_list<T> data);
 		T top();
 		bool empty();
 		int size();
@@ -50,6 +53,19 @@ Stack<T>::Stack(const int *  data, int size) {
 		m_size = size;	
 		m_capacity = 2*m_size;
 }	
+
+template <typename T>
+Stack<T>::Stack(initializer_list<T> data) {
+		assert(data.size() > 0);
+        m_data = new int[data.size()];
+		int j = 0;
+        for (const int* i = data.begin(); i != data.end(); i++) {
+            m_data[j] = *i;
+			j+=1;
+		}
+        m_size = data.size();  
+        m_capacity = 2*m_size;
+}
 
 template <typename T>
 Stack<T>::Stack(Stack<T>&& data):
@@ -113,11 +129,13 @@ T Stack<T>::pop() {
 
 template <typename T>
 T Stack<T>::top() {
+		assert(m_size > 0);
 		return m_data[m_size-1];
 }
 
 template <typename T>
 void Stack<T>::push(T item) {
+		assert(ok());
 		if (m_size == m_capacity) {
 				int* newm_data = new int[2*m_capacity];
 				m_capacity *= 2;
@@ -131,6 +149,7 @@ void Stack<T>::push(T item) {
 				
 		}
 		m_data[m_size++] = item;
+		assert(ok());
 }
 
 template <typename T>
@@ -141,5 +160,5 @@ Stack<T>::~Stack() {
 
 template <typename T>
 bool Stack<T>::ok() {
-		return (m_size > 0) && (m_capacity > 0) && (m_data != NULL);
+		return (m_size >= 0) && (m_capacity >= 0) && (m_data != NULL);
 }
