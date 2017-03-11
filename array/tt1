@@ -1,0 +1,285 @@
+Pointer constructor
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+At the beggingn of the copy constructor
+At the center of the copy constructor
+After new in the copy constructor
+Const operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Const operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+At the beggingn of the copy constructor
+At the center of the copy constructor
+After new in the copy constructor
+Const operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Const operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+At the beggingn of the copy constructor
+At the center of the copy constructor
+After new in the copy constructor
+Const operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Const operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator + with move
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+After copy construction
+Operator += 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator +=(after +=) 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+Operator + with move (after add)
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Move constructor, passing data dump
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+Move constructor (after moving)
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+Destructor 
+ ARRAY IS BROKEN. PRINTING INFO...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------

@@ -1,0 +1,593 @@
+Pointer constructor
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator += 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator +=(after +=) 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+DESTRUCTOR is called
+DESTRUCTOR is called
+Pointer constructor
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Function emplace()
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Function resize()
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Function resize() (after resize)
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 10
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+DESTRUCTOR is called
+DESTRUCTOR is called
+Function emplace() (after emplace)
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 10
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 87
+Element [4] : 3
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 10
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 87
+Element [4] : 3
+
+-----------------------------------------
+
+Function pop_back()
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 10
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 87
+Element [4] : 3
+
+-----------------------------------------
+
+Function size()
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 4
+ARRAY CAPACITY : 10
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 87
+
+-----------------------------------------
+
+DESTRUCTOR is called
+Pointer constructor
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+DESTRUCTOR is called
+Capacity constructor
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 0
+ARRAY CAPACITY : 5
+DATA TYPE : 4Test
+ARRAY ELEMENTS : 
+-----------------------------------------
+
+-----------------------------------------
+
+Function push_back()
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 0
+ARRAY CAPACITY : 5
+DATA TYPE : 4Test
+ARRAY ELEMENTS : 
+-----------------------------------------
+
+-----------------------------------------
+
+Function push_back()
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 1
+ARRAY CAPACITY : 5
+DATA TYPE : 4Test
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 21
+
+
+-----------------------------------------
+
+Function data()
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 1
+ARRAY CAPACITY : 5
+DATA TYPE : 4Test
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 21
+
+
+-----------------------------------------
+
+Pointer constructor
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Copy constructor 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator + with move
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+After copy construction
+Operator += 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Operator +=(after +=) 
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+Operator + with move (after add)
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 1
+Element [2] : 2
+Element [3] : 3
+Element [4] : 4
+
+-----------------------------------------
+
+Move constructor, passing data dump
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+Move constructor (after moving)
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+DESTRUCTOR is called
+Operator[]
+ARRAY IS IN OK STATE. PRINTING INFO ...
+ARRAY SIZE : 5
+ARRAY CAPACITY : 5
+DATA TYPE : i
+ARRAY ELEMENTS : 
+-----------------------------------------
+Element [0] : 0
+Element [1] : 2
+Element [2] : 4
+Element [3] : 6
+Element [4] : 8
+
+-----------------------------------------
+
+DESTRUCTOR is called
+DESTRUCTOR is called
+DESTRUCTOR is called
+DESTRUCTOR is called
